@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'h45-oefening1';
+  username : string = ''
+
+  removeUsername() {
+    this.username = ''
+  }
 }
